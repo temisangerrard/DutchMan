@@ -1,0 +1,212 @@
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.2em;
+  opacity: 0.8;
+  max-width: 600px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.cardTitle {
+  color: #ff6b35;
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+
+.statValue {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #ff6b35;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e85a2a;
+}
+
+.input {
+  width: 120px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.bidSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #333;
+}
+
+.participantInfo {
+  flex: 1;
+}
+
+.participantName {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.participantBudget {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.bidActions {
+  display: flex;
+  align-items: center;
+}
+
+.chartContainer {
+  height: 300px;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.rulesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.rulesGrid h3 {
+  color: #ff6b35;
+  margin-bottom: 16px;
+}
+
+.rulesGrid ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rulesGrid li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.rulesGrid li::before {
+  content: '•';
+  color: #ff6b35;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.projectDetails {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+.projectDescription {
+  white-space: pre-wrap;
+}
+
+.projectStats ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projectStats li {
+  margin-bottom: 10px;
+}
+
+.landingPage {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  padding: 60px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.landingPage h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #ff6b35;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.feature h3 {
+  color: #ff6b35;
+  margin-bottom: 10px;
+}
+
+.ctaButton {
+  background-color: #ff6b35;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #e55a2a;
+}
